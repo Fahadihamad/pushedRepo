@@ -1,0 +1,39 @@
+.example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+  .a{
+    width: 400px;
+  }
+  .btn1{
+    background-color: aquamarine;
+    text-align: center;
+    margin-left: 180px;
+  }
+  img{
+    width: 30%;
+  }
+  .text{
+    padding-left: 150px;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #border{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(207, 204, 204);
+  }
+  

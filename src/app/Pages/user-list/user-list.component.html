@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand bg-primary navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a routerLink="list" routerLinkActive="active" class="nav-link">peoples list</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/create_user" routerLinkActive="active" class="nav-link">Add User</a>
+        </li>
+    </ul>
+
+</nav>
+<div class="container">  
+<h2>Peoples  lists</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Id</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let users of user">
+         <td>{{users.firstName}}</td>
+         <td>{{users.lastName}}</td>
+         <td>{{users.email}}</td>
+         <td>
+            <button (click)="updateUser(users.id)" class="btn btn-info">update</button>
+            <button (click)="deleteUser(users.id)" class="btn btn-danger" style="margin-left:10px ;">Delete</button>
+            <button (click)="userDetails(users.id)" class="btn btn-success" style="margin-left:10px ;">Details</button>
+         </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<footer class="footer">
+  <div class="container">
+     <span>All right reserved 2022 @java codes from fahad</span>
+  </div>
+</footer>

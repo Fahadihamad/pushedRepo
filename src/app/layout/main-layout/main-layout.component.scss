@@ -1,0 +1,43 @@
+.color{
+  background-color: rgb(171, 238, 216);
+}
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: grey;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+a:hover{
+  color: rgb(27, 0, 77);
+  font-size: 28px;
+  padding-top: 10px;
+}
+.Menu{
+  color: black;
+  font-size: 25px;
+}
+.botton{
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  margin-left: 100vh;
+  width: 4%;
+}
+.sidenav-container .nav-list{
+  padding-top: 20px;
+  color: aqua;
+}
+
+
+
